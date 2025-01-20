@@ -1,5 +1,5 @@
 import { userArray } from "./users";
-//import{userInfoArray} from "./userinfo";
+
 
 
 interface IUserArray {
