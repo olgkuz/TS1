@@ -1,8 +1,9 @@
-interface IOrganization {
+
+ interface IOrganization {
     name: string,
     position :string
 }
-interface IUserInfoArray {
+export interface IUsersInfo {
     userid: string;
     name: string;
     birthdate: string;
@@ -10,7 +11,7 @@ interface IUserInfoArray {
     organization: IOrganization
 } 
 
-export const  userInfoArray: IUserInfoArray[] = [
+export const  usersInfoArray: IUsersInfo[] = [
     {
     userid: '127e4567-e89b-12d3-a458-426614174000',
     name: 'John',
@@ -32,4 +33,5 @@ export const  userInfoArray: IUserInfoArray[] = [
       position: 'Manager' 
      }
     }
-]
+];
+
